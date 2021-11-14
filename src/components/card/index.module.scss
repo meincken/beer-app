@@ -1,0 +1,26 @@
+
+.card {
+  border: 0.1rem solid var(--dark);
+  padding: 2rem;
+
+  .icon {
+    max-height: 5rem;
+    width: auto;
+  }
+  
+  header {
+    border-bottom: 0.1rem solid var(--dark);
+    display: grid;
+    grid-template-columns: 1fr 3rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  ul {
+    border-top: 0.1rem solid var(--dark);
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+}

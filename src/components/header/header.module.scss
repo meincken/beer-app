@@ -1,0 +1,13 @@
+.global {
+  align-items: center;
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 10rem;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}

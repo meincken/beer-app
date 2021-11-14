@@ -1,0 +1,15 @@
+.filtersList {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 1rem;
+
+  > div {
+    position: fixed;
+    top: 10rem;
+  }
+
+  h4 {
+    letter-spacing: .2px;
+    padding-bottom: 4px;
+  }
+}
